@@ -9,35 +9,35 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
         android:text="Somar"
         tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="403dp" />
+        tools:layout_editor_absoluteY="368dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="138dp"
+        android:layout_height="49dp"
         android:text="Multiplicar"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="518dp" />
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="486dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Subtrair"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="403dp" />
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="368dp" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="47dp"
         android:text="Dividir"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="525dp" />
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="486dp" />
 
     <EditText
         android:id="@+id/editTextNumber"
