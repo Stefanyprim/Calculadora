@@ -10,6 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     EditText n1, n2;
     TextView Resultado;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,33 +21,39 @@ public class MainActivity extends AppCompatActivity {
         Resultado = findViewById(R.id.Resultado);
         Resultado.setVisibility(View.INVISIBLE);
     }
-    public void somar(View v){
+
+    public void somar(View v) {
         int num1 = Integer.parseInt(n1.getText().toString());
         int num2 = Integer.parseInt(n2.getText().toString());
         int tl = num1 + num2;
         Resultado.setVisibility(View.VISIBLE);
-        Resultado.setText(tl+"");
+        Resultado.setText(tl + "");
     }
-    public void subtrair(View v){
+
+    public void subtrair(View v) {
         int num1 = Integer.parseInt(n1.getText().toString());
         int num2 = Integer.parseInt(n2.getText().toString());
         int tl = num1 - num2;
         Resultado.setVisibility(View.VISIBLE);
-        Resultado.setText(tl+"");
+        Resultado.setText(tl + "");
     }
-    public void multiplicar(View v){
+
+    public void multiplicar(View v) {
         int num1 = Integer.parseInt(n1.getText().toString());
         int num2 = Integer.parseInt(n2.getText().toString());
         int tl = num1 * num2;
         Resultado.setVisibility(View.VISIBLE);
-        Resultado.setText(tl+"");
+        Resultado.setText(tl + "");
     }
-    public void dividir(View v){
+
+    public void dividir(View v) {
         int num1 = Integer.parseInt(n1.getText().toString());
         int num2 = Integer.parseInt(n2.getText().toString());
-        int tl = num1/num2;
+        int tl = num1 / num2;
         Resultado.setVisibility(View.VISIBLE);
-        Resultado.setText(tl+"");}
+        Resultado.setText(tl + "");
+    }
+}
 
 
 
